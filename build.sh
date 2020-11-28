@@ -9,4 +9,3 @@ do
     cd $i && go build && cd ..
     sleep 1
 done
-cd ../test && go test
